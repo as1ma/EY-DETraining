@@ -1,0 +1,40 @@
+.nav-bar{
+    background-color: rgb(14, 50, 23);
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
+    justify-content: right;
+    align-items:normal;
+      
+}
+
+.nav-list{
+    list-style: none;
+    color: white;
+    display: flex;
+    padding: 1em;
+    font-size: 1.5em;
+}
+
+.nav-bar ul li{
+    margin: 0.5em;
+    font-family: monospace;
+}
+
+.nav-bar ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 8px 25px;
+}
+.nav-bar ul li a:hover{
+    background-color: white;
+    color:black;
+}
+
+#intro{
+    padding: 5em;
+}
